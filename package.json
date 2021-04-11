@@ -5,7 +5,7 @@
   "main": "production/index.js",
   "scripts": {
     "start": "parcel serve public/index.html --dist-dir build",
-	"build": "parcel build public/index.html"
+    "build": "parcel build public/index.html"
   },
   "targets": {
     "default": {
@@ -18,7 +18,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheFlybox/implex/issues"
   },
@@ -29,5 +29,8 @@
     "material-icons": "^0.6.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
   }
 }
