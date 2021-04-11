@@ -1,6 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/react': ^17.0.3
+  '@types/react-dom': ^17.0.3
   framework7: ^6.0.15
   framework7-react: ^6.0.15
   material-icons: ^0.6.1
@@ -9,6 +11,8 @@ specifiers:
   react-dom: ^17.0.2
 
 dependencies:
+  '@types/react': 17.0.3
+  '@types/react-dom': 17.0.3
   framework7: 6.0.15
   framework7-react: 6.0.15
   material-icons: 0.6.1
@@ -1694,9 +1698,31 @@ packages:
     resolution: {integrity: sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==}
     dev: true
 
+  /@types/prop-types/15.7.3:
+    resolution: {integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==}
+    dev: false
+
   /@types/q/1.5.4:
     resolution: {integrity: sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==}
     dev: true
+
+  /@types/react-dom/17.0.3:
+    resolution: {integrity: sha512-4NnJbCeWE+8YBzupn/YrJxZ8VnjcJq5iR1laqQ1vkpQgBiA7bwk0Rp24fxsdNinzJY2U+HHS4dJJDPdoMjdJ7w==}
+    dependencies:
+      '@types/react': 17.0.3
+    dev: false
+
+  /@types/react/17.0.3:
+    resolution: {integrity: sha512-wYOUxIgs2HZZ0ACNiIayItyluADNbONl7kt8lkLjVK8IitMH5QMyAh75Fwhmo37r1m7L2JaFj03sIfxBVDvRAg==}
+    dependencies:
+      '@types/prop-types': 15.7.3
+      '@types/scheduler': 0.16.1
+      csstype: 3.0.7
+    dev: false
+
+  /@types/scheduler/0.16.1:
+    resolution: {integrity: sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==}
+    dev: false
 
   /abab/2.0.5:
     resolution: {integrity: sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==}
@@ -2592,6 +2618,10 @@ packages:
     dependencies:
       cssom: 0.3.8
     dev: true
+
+  /csstype/3.0.7:
+    resolution: {integrity: sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==}
+    dev: false
 
   /dashdash/1.14.1:
     resolution: {integrity: sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=}
