@@ -1,0 +1,46 @@
+.login-screen-content, .login-page{
+    background: #f7f7f7 !important;  /* fallback for old browsers */
+}
+
+.logo{
+    margin: 0 auto;
+    display: block;
+    width: 112px;
+    height: 112px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    padding: 0.2rem;
+    background: #fff;
+    box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.24);
+}
+@media screen and (max-width: 500px){
+    :root{
+        --f7-block-padding-horizontal: 32px;
+        --f7-list-item-padding-horizontal: 32px;
+    }
+}
+
+.top-section{
+    width: 100%;
+    height: 150px;
+    padding: 5rem 0rem 2rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.h1, .h2{
+    padding: 0;
+    margin: 0;
+}
+.h2{
+    color: #999;
+    font-weight: 500;
+}
+.page-content.login-screen-content{
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
