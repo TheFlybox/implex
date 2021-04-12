@@ -2,7 +2,7 @@ import React from 'react';
 import { LoginScreen, Page, List, ListInput, LoginScreenTitle, Button, BlockFooter, Block, Link, ListItem, Icon, ListButton } from 'framework7-react';
 import LogoImage from 'url:../assets/logo3.png';
 
-const LoginView = (props: any) => {
+const AuthLogin = (props: any): any => {
     return(
         <LoginScreen className="main-login-screen" opened={true}>
             <Page loginScreen colorTheme="black" className="login-page">
@@ -38,4 +38,4 @@ const LoginView = (props: any) => {
     );
 }
 
-export default LoginView;
+export default AuthLogin;
